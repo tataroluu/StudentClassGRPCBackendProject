@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RestJDBCServer" />
+        <module name="SpringBootRestJDBCClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="RestJDBCServer" target="1.8" />
+      <module name="spring-webclient-rest-main" target="17" />
+      <module name="SpringBootRestJDBC" target="8" />
+      <module name="SpringBootRestJDBCClient" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="RestJDBCServer" options="" />
+      <module name="SpringBootRestJDBC" options="" />
+      <module name="SpringBootRestJDBCClient" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="spring-webclient-rest-main" options="-parameters" />
+    </option>
+  </component>
+</project>
